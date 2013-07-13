@@ -3,9 +3,10 @@ body{
 
 }
 
+/*
 #captcha2 {
-  -moz-animation-duration: 0.03s;
-  -webkit-animation-duration: 0.03s;
+  -moz-animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
   -moz-animation-name: captcha2;
   -webkit-animation-name: captcha2;
   -moz-animation-iteration-count: infinite;
@@ -17,24 +18,24 @@ body{
 
 @-moz-keyframes captcha2 {
   from {
-    margin-top:3px;
+    margin-top:4px;
     width:100%
   }
 
   to {
-    margin-top:-3px;
+    margin-top:-4px;
     width:100%;
   }
 }
 
 @-webkit-keyframes captcha2 {
   from {
-    margin-top:3px;
+    margin-top:4px;
     width:100%
   }
 
   to {
-    margin-top:-3px;
+    margin-top:-4px;
     width:100%;
   }
 }
