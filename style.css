@@ -1,0 +1,66 @@
+body{
+    margin: 25px;
+
+}
+
+#captcha2 {
+  -moz-animation-duration: 0.03s;
+  -webkit-animation-duration: 0.03s;
+  -moz-animation-name: captcha2;
+  -webkit-animation-name: captcha2;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+}
+
+
+@-moz-keyframes captcha2 {
+  from {
+    margin-top:3px;
+    width:100%
+  }
+
+  to {
+    margin-top:-3px;
+    width:100%;
+  }
+}
+
+@-webkit-keyframes captcha2 {
+  from {
+    margin-top:3px;
+    width:100%
+  }
+
+  to {
+    margin-top:-3px;
+    width:100%;
+  }
+}
+
+/*
+@-moz-keyframes captcha2 {
+  from {
+    top:-62px;
+    width:100%
+  }
+
+  to {
+    top:-51px;
+    width:100%;
+  }
+}
+
+@-webkit-keyframes captcha2 {
+  from {
+    top:-51px;
+    width:100%
+  }
+
+  to {
+    top:-62px;
+    width:100%;
+  }
+}
+*/
